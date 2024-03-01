@@ -1,21 +1,27 @@
-
-
 import os
-import time
 
 
-print("< WELCOME TO THE QRCode GENERATOR APP >")
-print() #for new line
+
+
+print("< Welcome to your QRCode Generator App >")
 
 
 def GENERATE():
+    
+    choice = 'y'
 
 
-    askURL = input("Enter the website's URL:")
-
-    os.system("curl qrenco.de/" + askURL)
+    while (choice == 'y'):
 
 
+        askURL = input("Enter the Website's URL:")
+
+        os.system("curl qrenco.de/" + askURL)
+
+
+        #asking Whether to run again
+
+        choice = input("Wanna Do it Again (Y/N):")
 
 
 
