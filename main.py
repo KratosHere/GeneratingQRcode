@@ -1,9 +1,6 @@
 import os
 
-
-
-
-print("< Welcome to your QRCode Generator App >")
+print("< Welcome to your QRCode Generator App >\n")
 
 
 def GENERATE():
@@ -22,8 +19,5 @@ def GENERATE():
         #asking Whether to run again
 
         choice = input("Wanna Do it Again (Y/N):")
-
-
-
 
 GENERATE()
